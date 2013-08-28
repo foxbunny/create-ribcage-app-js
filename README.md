@@ -6,6 +6,8 @@ This is a [volo](http://volojs.org/)-compatible
 This template is based on the basic
 [create-template](https://github.com/volojs/create-template).
 
+## CoffeeScript edition
+
 This is a template for JavaScript development. There is 
 [another template](https://github.com/foxbunny/create-ribcage-app) that
 sets everything up for people who prefer CoffeeScript.
