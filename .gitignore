@@ -1,0 +1,6 @@
+www-built
+www-ghpages
+node_modules
+-p
+*.swp
+*.swo

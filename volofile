@@ -1,0 +1,29 @@
+/*jslint node: true */
+'use strict';
+
+var quietFlag = {'q': 'quiet'};
+
+var useConsole = function(namedArgs) {
+    return {useConsole: !namedArgs.quiet};
+};
+
+module.exports = {
+    clean: 'v.rm www-built',
+    serve: {
+        flags: quietFlag,
+        run: function(d, v, namedArgs) {
+            d.resolve(v.spawn(
+                'node',
+                ['tools/proxy.js'], 
+                useConsole(namedArgs)));
+        }  
+    },
+    build: {
+        flags: quietFlag,
+        run: function (d, v, namedArgs) {
+            d.resolve(v.spawn('node', ['tools/r.js', '-o', 'tools/build.js'],
+                useConsole(namedArgs)));
+        }
+    }
+
+};
