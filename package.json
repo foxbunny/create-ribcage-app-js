@@ -6,10 +6,8 @@
       "jquery": "github:jquery/jquery/1.10.2",
       "underscore": "github:amdjs/underscore/1.5.1",
       "backbone": "github:amdjs/backbone/1.0.0",
-      "ribcage": "github:foxbunny/ribcage/0.0.1",
-      "text": "github:requirejs/text/2.0.10",
-      "jquery.soap": "github:doedje/jquery.soap/1.2.0",
-      "jquery.xml2json": "http://jquery-xml2json-plugin.googlecode.com/svn/trunk/jquery.xml2json.js"
+      "ribcage": "github:foxbunny/ribcage/0.2.1",
+      "text": "github:requirejs/text/2.0.10"
     }
   },
   "devDependencies": {
