@@ -92,6 +92,7 @@ define(function(require) {
   });
 
   var app = new App();
+  app.state.set({started: true});
   Backbone.history.start();
   return app;
 });
