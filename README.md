@@ -19,8 +19,6 @@ sets everything up for people who prefer CoffeeScript.
     * index.html - the entry point into the app.
     * js/
         * app/ - application modules
-            * models/ - the directory to hold models
-                * state.js - application state model
             * routes/ - the directory to hold route handlers
                 * hello.js - example route handler
             * views/ - the directory to hold views
