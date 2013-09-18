@@ -82,7 +82,7 @@ proxyServer.proxy.on('proxyError', function(err) {
 });
 
 // Enjoy!
-console.log(EMO_SHINE + ' localhost:8000');
+console.log(EMO_SHINE + ' localhost:8080');
 if (SERVICE_ENABLED) {
   console.log(EMO_SHINE + ' localhost:8080' + SERVICE.rootPath + ' ~~> ' + 
     SERVICE.target.host + ':' + SERVICE.target.port + SERVICE.baseUrl);
