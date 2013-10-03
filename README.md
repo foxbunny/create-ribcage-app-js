@@ -76,22 +76,18 @@ http://requirejs.org/docs/optimization.html
 For more information on using requirejs:
 http://requirejs.org/docs/api.html
 
-## Included server
+## Development server
 
-To start the built-in server, run:
+The project uses [DaProxy](https://bitbucket.org/cloudhorizon/devproxy) to
+serve the unbuilt files. To start it, run:
 
     volo serve
 
 The server will be accessible at [localhost:8080](http://localhost:8080/). 
 
-The included server is a simple HTTP server with reverse proxy capability. The
-file is called `proxy.js` and is located in the `tools` directory. You can
-customize the behavior of the server by editing a few all-caps variables inside
-the file. The variables are commented, so please read the source code.
-
-By default, the server binds to 0.0.0.0. You can edit the `proxy.js` file to
-customize that (just search for 0.0.0.0 and change that to anything you want,
-like 127.0.0.1).
+The server is a simple HTTP server with reverse proxy capability. The
+file is called `proxy.json` and is located in the `tools` directory. The layout
+of the file should be self-explanatory.
 
 ## Known issues
 

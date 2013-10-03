@@ -10,13 +10,7 @@ var useConsole = function(namedArgs) {
 module.exports = {
     clean: 'v.rm www-built',
     serve: {
-        flags: quietFlag,
-        run: function(d, v, namedArgs) {
-            d.resolve(v.spawn(
-                'node',
-                ['tools/proxy.js'], 
-                useConsole(namedArgs)));
-        }  
+        run: 'n.proxy -c tools/proxy.json'
     },
     build: {
         flags: quietFlag,
