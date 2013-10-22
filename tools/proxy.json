@@ -1,7 +1,7 @@
 {
   "baseDir": "www",
-  "target": "http://localhost:9000/api",
-  "rootPath": "api",
+  "target": [],
+  "rootPath": [],
   "port": "8080",
   "noLang": false
 }
