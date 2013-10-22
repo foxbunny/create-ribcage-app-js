@@ -12,6 +12,9 @@ module.exports = {
     serve: {
         run: 'n.proxy -c tools/proxy.json'
     },
+    docs: {
+        run: 'n.cdoc coffee doc'
+    },
     build: {
         flags: quietFlag,
         run: function (d, v, namedArgs) {
