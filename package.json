@@ -3,13 +3,13 @@
   "volo": {
     "baseUrl": "www/js/lib",
     "dependencies": {
-      "ribcage": "github:foxbunny/ribcage/0.5.2",
+      "ribcage": "github:foxbunny/ribcage/0.5.3",
       "text": "github:requirejs/text/2.0.10"
     }
   },
   "devDependencies": {
     "volo": "0.3.0",
-    "http-server": "*",
-    "http-proxy": "*"
+    "daproxy": ">=0.0.4",
+    "cdoc": ">=0.0.2"
   }
 }
